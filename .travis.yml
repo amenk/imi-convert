@@ -1,4 +1,6 @@
 language: php
 php:
   - 5.4
+install:
+  - apt-get install inkscape
 script: php test.php
